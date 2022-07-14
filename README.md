@@ -2,7 +2,7 @@
 
 Trong đề tài này, việc phát hiện sỏi thận bằng hình ảnh X-quang được đề xuất với kỹ thuật học sâu (DL), đã đạt được tiến bộ đáng kể trong lĩnh vực trí tuệ nhân tạo. Tổng số 1.799 hình ảnh đã được sử dụng bằng cách chụp các hình ảnh CT cắt ngang khác nhau cho mỗi người. Mô hình tự động được phát triển cho thấy độ chính xác là khá cao khi sử dụng hình ảnh CT để phát hiện sỏi thận.
 
-Các tập dữ liệu và code sẽ được đính kèm - https://github.com/yildirimozal/Kidney_stone_detection, có thể chạy mã code đã cho bằng cách sử dụng [nền tảng google colab](https://colab.research.google.com/)
+Các tập dữ liệu (https://github.com/yildirimozal/Kidney_stone_detection) và code sẽ được đính kèm, có thể chạy mã code đã cho bằng cách sử dụng [nền tảng google colab](https://colab.research.google.com/)
 
 Train 
 
