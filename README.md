@@ -47,7 +47,6 @@ Phát hiện đối tượng trên ảnh bằng lệnh:
 
     !python detect.py --source /content/drive/MyDrive/LuanVan/data/images/val --weights /content/drive/MyDrive/LuanVan/yolov5/runs/train/exp2/weights/last.pt  --img 640 --save-txt --save-conf
 Kết quả sẽ được lưu vào các thư mục runs/detect/exp
-
 ![Optional Text](../master/Kidney_stone30.png)  
 
 ![](.\Kidney_stone30.png)
