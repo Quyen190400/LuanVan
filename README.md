@@ -49,6 +49,7 @@ Phát hiện đối tượng trên ảnh bằng lệnh:
 Kết quả sẽ được lưu vào các thư mục runs/detect/exp
 
 ![Optional Text](../master/Kidney_stone30.png)  
+
 ![](.\Kidney_stone30.png)
 
 
