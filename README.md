@@ -15,6 +15,7 @@ Test
 
 #Mô tả đề tài
 
+![Optional Text](../master/TomTatModel.jpg)  
 ![](.\TomTatModel.jpg)
 
 #YOLOv5
@@ -32,6 +33,8 @@ Giải nén tập dữ liệu
     !unzip /content/drive/'My Drive'/LuanVan/data.zip
 Tải file /yolov5/data/coco128.yaml về và sửa lại thành file 
         
+
+![Optional Text](../master/image1.jpg)  
 ![](.\image1.jpg)
 Tiến hành train model với custom dataset. Ta chọn pretrained yolov5-s với các thông số phù hợp:
 
@@ -39,11 +42,13 @@ Tiến hành train model với custom dataset. Ta chọn pretrained yolov5-s v�
 Sau khi train, kết quả train sẽ được lưu vào các thư mục runs/train/exp, trọng số (weights) của model Yolov5 sẽ được lưu trong thư mục weights, weights của của epoch tốt nhất và best.pt và epoch cuối cùng last.pt
 ![](.\ketqua.jpg)   
 
+![Optional Text](../master/ketqua.jpg)  
 Phát hiện đối tượng trên ảnh bằng lệnh:
 
     !python detect.py --source /content/drive/MyDrive/LuanVan/data/images/val --weights /content/drive/MyDrive/LuanVan/yolov5/runs/train/exp2/weights/last.pt  --img 640 --save-txt --save-conf
 Kết quả sẽ được lưu vào các thư mục runs/detect/exp
 
+![Optional Text](../master/Kidney_stone30.png)  
 ![](.\Kidney_stone30.png)
 
 
@@ -147,6 +152,8 @@ Chuyển hình ảnh thành các bản vá
             patches = tf.reshape(patches, [batch_size, -1, patch_dims])
             return patches
 Đầu ra
+
+![Optional Text](../master/patch_1.jpg)  
 ![](.\patch_1.jpg)
 
 Kế tiếp sẽ xây dựng các khối cho máy mô hình. Đầu tiên,  sẽ sử dụng dữ liệu tăng cường sẽ đi qua khối trình tạo bản vá và sau đó dữ liệu sẽ đi qua khối mã hóa bản vá. Trong khối Transformer, sử dụng một lớp self-attention trên các chuỗi bản vá. Đầu ra từ khối biến áp sẽ đi qua một đầu phân loại giúp tạo ra các đầu ra cuối cùng. 
@@ -220,5 +227,8 @@ Kết quả đánh giá
     results = model.evaluate(X_test, y_test)
     print('Test loss: {:4f}'.format(results[0]))
     print('Test accuracy: {:4f}'.format(results[1]))
-![](.\image2.jpg)"# LuanVanCNTT" 
+
+![Optional Text](../master/image2.jpg)  
+![](.\image2.jpg)
+"# LuanVanCNTT" 
 
