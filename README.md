@@ -13,7 +13,7 @@ Test
     Kidnet_stone: 165
     Normal: 181
 
-#Mô tả đề tài
+#Phương pháp nghiên cứu
 
 ![Optional Text](../master/TomTatModel.jpg)  
 ![](.\TomTatModel.jpg)
